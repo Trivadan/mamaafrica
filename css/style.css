@@ -1,0 +1,347 @@
+@font-face {
+    font-family: 'robotolight';
+    src: url('fonts/Roboto-Light-webfont.eot');
+    src: url('fonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Roboto-Light-webfont.woff') format('woff'),
+         url('fonts/Roboto-Light-webfont.ttf') format('truetype'),
+         url('fonts/Roboto-Light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*{
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], textarea {
+	color: #666;
+	border: 1px solid #ccc;
+	background: none;
+}
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"] {
+   padding: 3px;
+}
+article, aside, details, figcaption, figure, footer, header, main, nav, section {
+   display: block;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+	border: 1px solid;
+	border-color: #ccc #ccc #bbb;
+	border-radius: 3px;
+	background: #e6e6e6;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
+	color: rgba(0, 0, 0, .8);
+	cursor: pointer;
+	-webkit-appearance: button;
+	font-size: 12px;
+	font-size: 1.2rem;
+	line-height: 1;
+	padding: .6em 1em .4em;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+body, button, input, select, textarea {
+	color: #404040;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-size: 1.6rem;
+	line-height: 1.5;
+}
+body {
+	background: #f2f2f2;
+	line-height: 1.25;
+	color: #666;
+	font-family: 'robotolight' !important;
+}
+img {
+	height: auto;
+	max-width: 100%;
+}
+ul {
+    list-style: disc;
+}
+a:visited {
+  color: #dd2027;
+}
+.topcontent{
+	width: 100%;
+	height: 680px;
+}
+#top-wrap {
+	width: 100%;
+	position: fixed;
+	z-index: 999;
+}
+#top {
+	width: 1000px;
+	height: auto;
+	margin: auto;
+}
+#logo {
+	width: 214px;
+	height: 135px;
+	float: left;
+	background: url(../images/logo.jpg) no-repeat top;
+}
+#small-logo {
+	width: 214px;
+	height: 45px;
+	float: left;
+	display: none;
+	background: #FFF url(../images/small-logo.png) no-repeat;
+}
+#main-menu {
+	width: auto;
+	float: left;
+	background: #FFF;
+}
+.main-navigation {
+	clear: both;
+	display: block;
+	float: left;
+	width: 100%;
+}
+.menu-toggle {
+  display: none;
+}
+.main-navigation ul {
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+}
+.main-navigation li {
+	float: left;
+	position: relative;
+}
+.main-navigation a {
+	display: block;
+	text-decoration: none;
+	font-size: 13px;
+	padding: 12px 18px;
+	color: #333;
+}
+.main-navigation .current-menu-item > a, .main-navigation .current-menu-item > a:hover{
+   color: #dd2027;
+}
+#searchwrap {
+	float: left;
+	width: 54px;
+	height: 45px;
+	display: none;
+	background: #333333 url(../images/search-btn.jpg) no-repeat center;
+}
+.searchwrap {
+	float: left;
+	width: 54px;
+	height: 45px;
+	display: none;
+	background: #333333 url(../images/search-close.jpg) no-repeat center;
+}
+.slidingDiv {
+	float: left;
+	width: 78.2%;
+	height: auto;
+}
+#search-green {
+	width: 87%;
+	height: 80px;
+	float: left;
+	border-radius: 0;
+	padding-left: 2%;
+	font-size: 36px;
+	color: #fff;
+	font-family: 'robotolight' !important;
+	font-weight: lighter !important;
+}
+.sb-search-submit {
+	width: 10.3%;
+	height: 88px;
+	float: left;
+	box-shadow: none !important;
+	border-radius: 0 !important;
+	background: #333333 url(../images/search-btn-big.jpg) no-repeat center !important;
+}
+.bannerarea {
+	width:100%;
+	height:100%;
+	position: absolute;
+}
+.bannertext{
+	color:#FFF;
+	position:absolute;
+	right:5%;
+	top:262px;
+	width:40%;
+}
+.bannertext p{
+	font-size:25px;
+}
+.bannertext a{
+	font-size: 13px;
+	padding: 10px 12px;
+	margin: 20px 0px 0px;
+	border-width: 0px;
+	line-height: 19px;
+	white-space: nowrap;
+	min-width: 0px;
+	min-height: 0px;
+	text-decoration:none;
+	background: #dd2027;
+	color:#fff;
+	display:inline-block;
+}
+.bannerarea img{
+	width:100%;
+	height:680px;
+}
+.bx-viewport ul {
+  margin: 0;
+}
+#cases {
+	width: 100%;
+	 padding: 0; 
+	height: 100px;
+	position: absolute;
+	z-index: 99;
+	top: 583px;
+	background: url(../images/cases-bg.png);
+}
+#chambers {
+	width: 305px;
+	height: 90px;
+	float: left;
+}
+.contentarea {
+	width: 100%;
+	height: auto;
+	float: left;
+	padding-top: 15px;
+	background: #f2f2f2;
+}
+.mid-container {
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+}
+#left-col {
+	width: 24%;
+	float: left;
+	margin-right: 1%;
+	height: auto;
+}
+#teaser-wrap {
+	width: 100%;
+	height: auto;
+	float: left;
+}
+#t-cont {
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+}
+.mid-col {
+	width: 48%;
+	float: left;
+	height: auto;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+.right-col {
+	width: 24%;
+	float: left;
+	height: auto;
+	margin-left: 1%;
+}
+.bottom-content {
+	width: 100%;
+	height: auto;
+	float: left;
+}
+#small_bottpics {
+	width: 24%;
+	float: left;
+	margin-right: 1%;
+}
+.teaser img{
+	width:100%;
+}
+#small_pic {
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+}
+#footer-wrap {
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 30px;
+	background: #333333;
+	color: #cccccc;
+	font-size: 12px;
+}
+.topfooter{
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 30px;
+	background: #333333;
+	color: #cccccc;
+	font-size: 12px;
+}
+.widget {
+   margin: 0 0 0.5em;
+}
+#footer-wrap h1.footertitle {
+	color: #cccccc;
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+#footer-wrap ul {
+    margin: 0 0 0 0;
+}
+#footer-wrap ul li {
+   list-style: none;
+}
+#footer-wrap ul li a {
+	color: #CCC;
+	text-decoration: none;
+}
+#footer {
+	width: 1000px;
+	padding-top: 30px;
+	height: auto;
+	margin: 0 auto;
+}
+#footer-wrap .widget {
+	width: 20%;
+	float: left;
+}
+#bottom-wrap {
+	width: 100%;
+	border-top: solid #666666 1px;
+	padding: 10px 0;
+	float: left;
+}
+#bottom-wrap #footer {
+   padding: 0;
+}
+#copyright {
+	float: left;
+	width: 50%;
+}
+#copyright a {
+	color: #CCC;
+	text-decoration: none;
+}
+#social {
+	width: 150px;
+	float: right;
+}
